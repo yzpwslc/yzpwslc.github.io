@@ -1,13 +1,4 @@
 ---
-layout:default
-title:index
+layout: default 
+title: index
 ---
-
-<ul class="post-list">
-	{% for post in site.posts %}
-		<a href="{{site.baseurl}}{{post.url}}" >{{post.title}}</a><br>
-		{{post.date | date: "%F"}} <br>
-		{{post.category}} <br>
-		{{post.excerpt}}
-	{ %endfor% }
-</ul>
