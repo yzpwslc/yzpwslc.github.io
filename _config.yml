@@ -1,3 +1,27 @@
-name: yzpwslc
-markdown: kramdown
-theme: jekyll-theme-minimal
+# Site settings
+title:          yzpwslc
+description:    ""
+baseurl:        ""
+url:            "http://blog.yuzhipeng.xyz"
+
+# Author
+author:
+  name:         yzp
+  url:          https://
+  email:        yzp1011@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
