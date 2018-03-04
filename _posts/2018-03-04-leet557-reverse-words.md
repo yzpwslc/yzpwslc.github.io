@@ -9,7 +9,7 @@ date: 2018-03-04 11:50
 <p>分析：将字符串分割为列表，将列表中每个子字符串逆序，再将列表组合为字符串</p>
 <p>代码如下：</p>
 {% highlight python %}
-ass Solution(object):
+class Solution(object):
     def reverseWords(self, s):
         """
         :type s: str
