@@ -11,3 +11,9 @@ date: 2018-03-06 20:49
 {% highlight python %}
         return  bin(n).find('11') + bin(n).find('00') < -1
 {% endhighlight%}
+<p>思考：看了一下别人的代码，采用位运算，对于满足条件的整数，将其右移1位，与原数取异或，得到的数所有位均为1,根据这一思路，代码如下：</p>
+
+{% highlight python %}
+        num = n  ^ (n >> 1)
+        return (num ^ (num + 1)) >> 1 == num
+{% endhighlight%}
