@@ -2,7 +2,7 @@
 layout: post
 title:  "leet653.Two Sum"
 author: "yzpwslc"
-date: 2018-03-08 00:36
+date: 2018-03-09 00:36
 ---
 
 <p>题目：判断BST上是否存在两个数的和为目标值</p>
